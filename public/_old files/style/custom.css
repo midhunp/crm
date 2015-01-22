@@ -1,0 +1,45 @@
+.error{
+	font-size:14px;
+	color:#d23e29;
+	
+}
+.success-message{
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	margin:0 auto;
+	width:500px;
+	height:460px;
+	background:url(../images/stickynote.png) no-repeat;
+	
+	
+	
+	}
+.success-message span{
+	position:relative;
+	top:190px;
+	left:100px;
+	font-size:24px;
+	color:#009c58;
+	
+	}
+	
+	
+.sessionMessage{
+	display:none;
+	position: fixed;
+	top: 0px;
+	
+	width: 100%;
+	margin: 0px auto;
+	
+	/*left: 20px;
+	right: 20px;*/
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	color:#434343;
+	padding: 5px 0px;
+	z-index: 99999;
+	background: #f2c91f;
+	}

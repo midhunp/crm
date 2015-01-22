@@ -1,0 +1,43 @@
+#loading{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+	background:#222222;
+	}
+	#loading img{
+		display:block;
+		margin: 0 auto;
+		margin-top:10%;
+	}
+table.unbordered{}
+table.unbordered tbody tr td{
+	border:none;
+	}
+
+table thead th.date{
+	width:100px;
+}
+.jq_commentBox{
+	margin-top:20px
+
+}
+.fullHeight{
+	height:100% !important;
+}
+
+#jq_alertBoxHolder{
+	position: fixed;
+	top: 15px;
+	left: 18px;
+	width: 100%;
+	z-index: 9999;
+}
+#jq_ConfirmBoxHolder{
+	position: absolute;
+	top: 15px;
+	left: 18px;
+	width: 50%;
+	z-index: 9999;
+}
